@@ -1,0 +1,52 @@
+.svg-map {
+    /* max-width: 100%; */
+    position: relative;
+}
+
+svg {
+    max-width: 100%;
+}
+
+#num:hover path,
+#que:hover path,
+#nov:hover path,
+#new:hover path,
+#ont:hover,
+#man:hover,
+#sas:hover,
+#alb:hover,
+#yuk:hover,
+#bc:hover path {
+    fill: blue;
+}
+
+.chart {
+    /* border: solid 1px black; */
+    position: absolute;
+    background-color: transparent;
+    padding: 50px;
+
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    
+}
+
+.pieChart {
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: hotpink;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fade_in {
+    animation: fadeIn .45s ease;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 100;}
+}
